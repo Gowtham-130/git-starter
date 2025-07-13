@@ -1,0 +1,19 @@
+
+table,td,th{
+    border: 2px solid #000000;
+}
+a{
+    background-color: royalblue;
+}
+#test{
+    color:rgba(0, 255, 55, 0.664);
+}
+.center{
+    text-align: justify;
+}
+/*Universal selector*/
+*{
+   
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+     'Lucida Sans', Arial, sans-serif;
+}

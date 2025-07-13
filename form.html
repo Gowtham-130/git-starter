@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form Demo</title>
+    <style>
+        body{
+            color: indianred;
+            /*background-color: greenyellow;
+            background-image: radial-gradient( blue,white);*/
+           background-image: url('word.jpg');
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment:fixed;
+        }
+        h1{
+           /* border-radius: 3px;
+            padding:5px;
+            margin:5px
+            border-color: indianred;*/
+            border-style: dotted dashed solid double;
+            text-align: center;
+        }
+        #demo{
+            font-size: 50px;
+           /* width: calc(100% - 100px);
+            width: max(490px,25%) 
+
+            padding: 54px;
+        */}
+    </style>
+</head>
+<body>
+    <h1>WELL XOMW RO DOEM</h1>
+    <P id="demo">Lorem ipsum dolor sit amet, consectetur
+         adipisicing elit. Maxime expedita quidem incidunt eaque ratione dolores
+          accusamus earum est sapiente veniam.</P>
+    <form action="submit.html">
+        <label for="fname">First name:</label><br>
+        <input type="text" name="fname" id="fname"><br>
+        <label for="lname">lastname:</label><br>
+        <input type="text" name="lname" id="lname"><br>
+        <label for="email">email:</label><br>
+        <input type="email" name="email" id="email"><br>
+        <label for="clr">Color:</label><br>
+        <input type="color" name="clr" id="clr"><br>
+        <label for="phone">phone:</label><br>
+        <input type="number" name="phone" id="phone"><br>
+        <label for="dob">D.O.B:</label><br>
+        <input type="date" name="dob" id="dob"><br>
+        <label for="pwd">password:</label><br>
+        <input type="password" name="pwd" id="pwd"><br>
+        <label for="city">City:</label>
+        <select name="city" id="city">
+            <option value="delhi">delhi</option>
+            <option value="gujarat">gujarat</option>
+            <option value="bombay">bombay</option>
+            <option value="chennai">chennai</option>
+            <option value="dasara">dasara</option>
+            <option value="matamama">metamama</option> 
+        </select>   <br> 
+        <label for="address">address</label>
+        <br>
+        <textarea name="address" id="address" cols="30" rows="10"></textarea>
+        <br>
+        <label for="gender">gender</label><br>
+        
+        <input type="radio" name="gender" id="male">
+        <label for="male">Male</label><br>
+        
+        <input type="radio" name="gender" id="female">
+        <label for="female">feMale</label><br>
+        
+        <input type="radio" name="gender" id="others">
+        <label for="others">others</label><br>
+
+        <label for="lang">Lanuguage Known:</label><br>
+        
+        <input type="checkbox" name="c" id="c">
+        <label for="c">C</label><br>
+        <input type="checkbox" name="cpp" id="cpp">
+        <label for="cpp">Cpp</label><br>
+        <input type="checkbox" name="python" id="python">
+        <label for="python">python</label><br>
+        <input type="checkbox" name="java" id="java">
+        <label for="java">java</label><br>
+        <input type="submit" value="submit">
+    </form>
+</body>
+</html>
